@@ -2,10 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('b1.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #333;
+    background-color: #01010f63;
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -24,18 +27,9 @@ nav {
 }
 
 .sitename, .nav-link {
-    color: white;
+    color: rgb(219, 227, 214);
     text-decoration: none;
     padding: 8px 16px;
-}
-
-.background-image {
-    background-image: url('background.jpg');
-    background-size: cover;
-    opacity: 0.8;
-    padding: 20px;
-    text-align: center;
-    color: black;
 }
 
 .content {
@@ -44,21 +38,10 @@ nav {
     padding: 20px;
 }
 
-.text-box, .image-box {
-    width: 45%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
-.video-box {
-    text-align: center;
-    margin: 20px;
-}
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #21602b8c;
+    color: rgb(251, 232, 233);
     text-align: center;
     padding: 10px 0;
     position: fixed;
