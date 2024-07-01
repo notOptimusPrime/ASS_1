@@ -2,10 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('PIXEL.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #333;
+    background-color: #1b47898c;
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -24,26 +27,28 @@ nav {
 }
 
 .sitename, .nav-link {
-    color: white;
+    color: rgb(9, 223, 184);
     text-decoration: none;
     padding: 8px 16px;
 }
 
 .nav-link.active {
-    background-color: #777;
+    background-color: #19a87f8d;
 }
 
 .paragraph-box {
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc56;
     text-align: center;
     margin: 20px;
+    color: white;
 }
 
 form {
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #8181816c;
     margin: 20px;
+    color: white;
 }
 
 .form-group {
@@ -57,8 +62,8 @@ form input[type="text"], form input[type="email"], form input[type="submit"] {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #30446671;
+    color: rgba(15, 210, 213, 0.929);
     text-align: center;
     padding: 10px 0;
     position: fixed;
