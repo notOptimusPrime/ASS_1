@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOUGHT SUPPORT</title>
+    <link rel="stylesheet" href="contact1.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="l1.png" alt="Logo" class="logo">
+            <a href="https://www.youtube.com/@voughtintl" class="vought-international">VOUGHT INTERNATIONAL</a>
+            <a href="index.html" class="nav-link active"><b>HOME</b></a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="paragraph-box">
+            <p>WELCOME TO THE CONTACT PAGE OF VOUGHT INTERNATIONAL PLEASE FULLFILL THE REQUIRED DETAILS TO ASSIST YOU FURTHER, AND DON'T FORGET TO SUBSCRIBE THE NEWSLETTER. TODAY'S HERO ARE TOMMOROW'S FUTURE</p>
+                <p> SIGN UP TO GET A CHANCE TO MEET WITH THE SEVEN.</p>
+
+            <b>ALL COPYRIGHTS RESERVED</b>
+        </div>
+
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="genre">FAVOURITE GENRE</label>
+                <input list="genres" id="genre" name="genre" required>
+                <datalist id="genres">
+                    <option value="Homelander">
+                    <option value="Black-noir">
+                    <option value="Starlight">
+                    <option value="A-train">
+                </datalist>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">SUBSCRIBE TO OUR NEWSLETTER VIA EMAIL</label>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </main>
+
+    <footer>
+        <p><b>DESIGNED BY</b></p>
+        <p> 23BCSL10</p>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            Swal.fire({
+                title: 'VOUGHT SUPPORT',
+                text: 'Thank you for contacting us! Your submission has been received.',
+                icon: 'success'
+            });
+        });
+    </script>
+</body>
+</html>
